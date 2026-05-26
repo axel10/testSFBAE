@@ -152,7 +152,19 @@ class PlayerViewModel: NSObject, ObservableObject {
         // 如果队列已结束，先恢复播放再 seek（引擎处于 paused 状态）
         if queueDidEnd { return }
         let clamped = max(0.0, min(1.0, position))
-        _ = player.seek(position: clamped)
+        if clamped >= 0.999 {
+            if hasNext {
+                playNext()
+            } else {
+                _ = player.seek(position: 1.0)
+                queueDidEnd = true
+                isPlaying = false
+                progress = 0
+                currentTime = 0
+            }
+        } else {
+            _ = player.seek(position: clamped)
+        }
     }
 
     func setVolume(_ vol: Double) {

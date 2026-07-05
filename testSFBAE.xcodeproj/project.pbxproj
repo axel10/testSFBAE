@@ -101,7 +101,7 @@
 			mainGroup = F23F52672FBFF7E5006E3E30;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				F23F79522FBFFC95006E3E30 /* XCLocalSwiftPackageReference "../player_project/SFBAudioEngine" */,
+				F23F79522FBFFC95006E3E30 /* XCLocalSwiftPackageReference "../vibe_flow/audio_core/SFBAudioEngine" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F23F52712FBFF7E5006E3E30 /* Products */;
@@ -258,8 +258,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45Y8488J5N;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,8 +302,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45Y8488J5N;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -362,9 +362,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		F23F79522FBFFC95006E3E30 /* XCLocalSwiftPackageReference "../player_project/SFBAudioEngine" */ = {
+		F23F79522FBFFC95006E3E30 /* XCLocalSwiftPackageReference "../vibe_flow/audio_core/SFBAudioEngine" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../player_project/SFBAudioEngine;
+			relativePath = ../vibe_flow/audio_core/SFBAudioEngine;
 		};
 /* End XCLocalSwiftPackageReference section */
 
